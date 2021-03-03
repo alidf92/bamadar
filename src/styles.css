@@ -1,0 +1,188 @@
+@font-face {
+    font-family: Vazir;
+    src: url("./fonts/Vazir-Regular.eot");
+    src: url("./fonts/Vazir-Regular.eot?#iefix") format("embedded-opentype"),
+        url("./fonts/Vazir-Regular.woff2") format("woff2"),
+        url("./fonts/Vazir-Regular.woff") format("woff"),
+        url("./fonts/Vazir-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url("./fonts/Vazir-Bold.eot");
+    src: url("./fonts/Vazir-Bold.eot?#iefix") format("embedded-opentype"),
+        url("./fonts/Vazir-Bold.woff2") format("woff2"),
+        url("./fonts/Vazir-Bold.woff") format("woff"),
+        url("./fonts/Vazir-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url("./fonts/Vazir-Thin.eot");
+    src: url("./fonts/Vazir-Thin.eot?#iefix") format("embedded-opentype"),
+        url("./fonts/Vazir-Thin.woff2") format("woff2"),
+        url("./fonts/Vazir-Thin.woff") format("woff"),
+        url("./fonts/Vazir-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url("./fonts/Vazir-Light.eot");
+    src: url("./fonts/Vazir-Light.eot?#iefix") format("embedded-opentype"),
+        url("./fonts/Vazir-Light.woff2") format("woff2"),
+        url("./fonts/Vazir-Light.woff") format("woff"),
+        url("./fonts/Vazir-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url("./fonts/Vazir-Medium.eot");
+    src: url("./fonts/Vazir-Medium.eot?#iefix") format("embedded-opentype"),
+        url("./fonts/Vazir-Medium.woff2") format("woff2"),
+        url("./fonts/Vazir-Medium.woff") format("woff"),
+        url("./fonts/Vazir-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url("./fonts/Vazir-Black.eot");
+    src: url("./fonts/Vazir-Black.eot?#iefix") format("embedded-opentype"),
+        url("./fonts/Vazir-Black.woff2") format("woff2"),
+        url("./fonts/Vazir-Black.woff") format("woff"),
+        url("./fonts/Vazir-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-display: swap;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none !important;
+    font-family: vazir !important;
+    direction: rtl !important;
+    transition: all 150ms ease 0s;
+}
+p,
+div,
+span,
+input,
+section,
+form,
+label,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+}
+@media only screen and (max-width: 767px) {
+    .header-nav {
+        display: none !important;
+    }
+}
+@media only screen and (min-width: 767px) {
+    .header-mob {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .slider-main {
+        display: none !important;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .slider-mob {
+        display: none !important;
+    }
+}
+
+.swiper-slide {
+    width: 206px !important;
+}
+
+.swiper-container {
+    max-width: 1280px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.swiper-button-prev {
+    right: -4px !important;
+    position: absolute;
+}
+
+@media only screen and (max-width: 767px) {
+    .swiper-button-prev {
+        display: none !important;
+    }
+}
+
+.swiper-button-next {
+    left: -3px !important;
+    position: absolute;
+}
+
+@media only screen and (max-width: 767px) {
+    .swiper-button-next {
+        display: none !important;
+    }
+}
+
+.link-style {
+    text-decoration: none;
+    color: black;
+}
+
+@media (min-width: 1280px) {
+    .max-width-slider {
+        max-width: 1280px;
+    }
+}
+
+@media (min-width: 600px) {
+    .max-width-slider {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+.max-width-slider {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.mr-12 {
+    margin-right: -12px;
+}
+
+.dis-none {
+    display: none;
+}
